@@ -1,0 +1,27 @@
+{
+  "name": "@theoryofnekomata/piano-roll",
+  "version": "0.0.0",
+  "description": "A piano roll control in JavaScript.",
+  "main": "bin/piano-roll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temoto-kun/piano-roll.git"
+  },
+  "keywords": [
+    "piano",
+    "piano-roll",
+    "music",
+    "control",
+    "notation",
+    "music-composition"
+  ],
+  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Temoto-kun/piano-roll/issues"
+  },
+  "homepage": "https://github.com/Temoto-kun/piano-roll#readme"
+}

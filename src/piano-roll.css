@@ -1,0 +1,27 @@
+.piano-roll {
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.piano-roll > .piano {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.piano-roll > .piano > .keyboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 64px;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: top left;
+}
+
+.piano-roll > .roll {
+  width: 100%;
+  height: 100%;
+  padding-left: 64px;
+}
